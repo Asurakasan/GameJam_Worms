@@ -47,7 +47,11 @@ public class Player : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       CanJump = true;  
+       CanJump = true; 
+       if(collision.CompareTag("Teleporter"))
+       {
+            CanJump = false;
+       }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -56,5 +60,9 @@ public class Player : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
         CanJump = true;
+        if (collision.CompareTag("Teleporter"))
+        {
+            CanJump = false;
+        }
     }
 }
