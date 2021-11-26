@@ -144,7 +144,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &37191292
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -816,12 +816,12 @@ GameObject:
   - component: {fileID: 1254609236}
   - component: {fileID: 1254609235}
   m_Layer: 0
-  m_Name: Test_Character (1)
+  m_Name: Test_Character_Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1254609235
 BoxCollider2D:
   m_ObjectHideFlags: 0

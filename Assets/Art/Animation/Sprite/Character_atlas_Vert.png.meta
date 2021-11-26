@@ -1,0 +1,840 @@
+fileFormatVersion: 2
+guid: be3feb270cca8aa4a83694ed7663e2c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4710518265651412768
+    second: Character_atlas_Vert_0
+  - first:
+      213: -559875683698634087
+    second: Character_atlas_Vert_1
+  - first:
+      213: -7396933397735183335
+    second: Character_atlas_Vert_2
+  - first:
+      213: 2983953894871870381
+    second: Character_atlas_Vert_3
+  - first:
+      213: 702748361223834584
+    second: Character_atlas_Vert_4
+  - first:
+      213: 6360118099972634419
+    second: Character_atlas_Vert_5
+  - first:
+      213: -1519571295542676076
+    second: Character_atlas_Vert_6
+  - first:
+      213: -5583013855001337043
+    second: Character_atlas_Vert_7
+  - first:
+      213: 4092240033405352011
+    second: Character_atlas_Vert_8
+  - first:
+      213: -1132203230094647335
+    second: Character_atlas_Vert_9
+  - first:
+      213: 202332618689759252
+    second: Character_atlas_Vert_10
+  - first:
+      213: 176054214641771943
+    second: Character_atlas_Vert_11
+  - first:
+      213: 4904384349142592382
+    second: Character_atlas_Vert_12
+  - first:
+      213: 5855799482288067668
+    second: Character_atlas_Vert_13
+  - first:
+      213: 6242594679508695497
+    second: Character_atlas_Vert_14
+  - first:
+      213: -1470497463195119952
+    second: Character_atlas_Vert_15
+  - first:
+      213: 4760788397260909749
+    second: Character_atlas_Vert_16
+  - first:
+      213: 2247273113987638105
+    second: Character_atlas_Vert_17
+  - first:
+      213: -2210974905664645502
+    second: Character_atlas_Vert_18
+  - first:
+      213: -2303205884649390246
+    second: Character_atlas_Vert_19
+  - first:
+      213: 1629001343514540902
+    second: Character_atlas_Vert_20
+  - first:
+      213: -4814624793934948242
+    second: Character_atlas_Vert_21
+  - first:
+      213: 9192215419968562418
+    second: Character_atlas_Vert_22
+  - first:
+      213: -7897917429771858955
+    second: Character_atlas_Vert_23
+  - first:
+      213: -3901880903835945622
+    second: Character_atlas_Vert_24
+  - first:
+      213: 9134909563551518170
+    second: Character_atlas_Vert_25
+  - first:
+      213: -3139492639721102399
+    second: Character_atlas_Vert_26
+  - first:
+      213: 3683302062692958457
+    second: Character_atlas_Vert_27
+  - first:
+      213: 7802887673371862019
+    second: Character_atlas_Vert_28
+  - first:
+      213: 4200302981060987865
+    second: Character_atlas_Vert_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character_atlas_Vert_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 447
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f342cb76f1f5140800000000000000
+      internalID: 4710518265651412768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 447
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99293c2380cea38f0800000000000000
+      internalID: -559875683698634087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 447
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c65c0f340d85990800000000000000
+      internalID: -7396933397735183335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 448
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab2bf9f142296920800000000000000
+      internalID: 2983953894871870381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 392
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db0c3549e9a0c900800000000000000
+      internalID: 702748361223834584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_5
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 393
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337b66ee6bda34850800000000000000
+      internalID: 6360118099972634419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 392
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4957c4e25f569eae0800000000000000
+      internalID: -1519571295542676076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 328
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23af8c9a762582b0800000000000000
+      internalID: -5583013855001337043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_8
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 324
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4832c6f0ae8ac830800000000000000
+      internalID: 4092240033405352011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_9
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 321
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df98a0392b9940f0800000000000000
+      internalID: -1132203230094647335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_10
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 324
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4184a77d174dec200800000000000000
+      internalID: 202332618689759252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 326
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5eeec1068717200800000000000000
+      internalID: 176054214641771943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 257
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b21acb49fdf0440800000000000000
+      internalID: 4904384349142592382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 254
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45452b19a9af34150800000000000000
+      internalID: 5855799482288067668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 258
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9fbdc49c622a650800000000000000
+      internalID: 6242594679508695497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 176
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be4427295eb79be0800000000000000
+      internalID: -1470497463195119952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 176
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bca985d2d7b11240800000000000000
+      internalID: 4760788397260909749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 176
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953e4889dfaef2f10800000000000000
+      internalID: 2247273113987638105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_18
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 176
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2865e8c990a0151e0800000000000000
+      internalID: -2210974905664645502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_19
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 176
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f32e8637e5900e0800000000000000
+      internalID: -2303205884649390246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_20
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 176
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b71d257106b9610800000000000000
+      internalID: 1629001343514540902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_21
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 108
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6818b642440f2db0800000000000000
+      internalID: -4814624793934948242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_22
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 108
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f42816d83f419f70800000000000000
+      internalID: 9192215419968562418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_23
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 108
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb051d41f5f46290800000000000000
+      internalID: -7897917429771858955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_24
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 113
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a657af2bdfbb9d9c0800000000000000
+      internalID: -3901880903835945622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_25
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 113
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add8ec669d7b5ce70800000000000000
+      internalID: 9134909563551518170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_26
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 108
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c36872f3184e64d0800000000000000
+      internalID: -3139492639721102399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_27
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 57
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0074706b7bd1330800000000000000
+      internalID: 3683302062692958457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_28
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 57
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304aa995ffc694c60800000000000000
+      internalID: 7802887673371862019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_atlas_Vert_29
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 57
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db872f9e497a4a30800000000000000
+      internalID: 4200302981060987865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
