@@ -41,6 +41,7 @@ public class Player : MonoBehaviour
 
         if (isGrounded == true)
         {
+           
             anim.SetBool("isJumping", false);
         }
         else
@@ -93,6 +94,8 @@ public class Player : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
+
        CanJump = true; 
        if(collision.CompareTag("Teleporter"))
        {
