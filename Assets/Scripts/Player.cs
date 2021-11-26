@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
     public LayerMask whatIsGround;
 
     public bool CanMove, CanJump;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +30,7 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         isGrounded = Physics2D.OverlapCircle(groundPos.position, checkRadius, whatIsGround);
 
@@ -42,9 +44,11 @@ public class Player : MonoBehaviour
             anim.SetBool("isJumping", false);
         }
         else
-        {
+        {           
             anim.SetBool("isJumping", true);
         }
+
+        
     }
     void Move()
     {
@@ -52,6 +56,24 @@ public class Player : MonoBehaviour
         float moveBy = x * speed;
         rb.velocity = new Vector2(moveBy, rb.velocity.y);
 
+        Vector3 rotate = transform.localScale;
+
+        
+
+        if (x > 0)
+        {
+            rotate.y = 180;
+            transform.localEulerAngles = rotate;
+        }
+        
+        if (x < 0)
+        {
+            rotate.y = 0;
+            transform.localEulerAngles = rotate;
+
+        }
+
+     
         if( x != 0)
         {
             anim.SetBool("isRunning", true);
@@ -61,9 +83,9 @@ public class Player : MonoBehaviour
             anim.SetBool("isRunning", false);
         }
     }
-    void Jump()
+    private void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded == true)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             anim.SetTrigger("takeOf");
@@ -76,6 +98,8 @@ public class Player : MonoBehaviour
        {
             CanJump = false;
        }
+
+
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -89,4 +113,6 @@ public class Player : MonoBehaviour
             CanJump = false;
         }
     }
+
+
 }
