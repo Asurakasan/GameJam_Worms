@@ -407,7 +407,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 181
-        y: 324
+        y: 319
         width: 40
         height: 55
       alignment: 0
@@ -428,7 +428,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 326
+        y: 319
         width: 50
         height: 55
       alignment: 0
@@ -449,7 +449,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 11
-        y: 257
+        y: 255
         width: 40
         height: 52
       alignment: 0
@@ -469,7 +469,7 @@ TextureImporter:
       name: Character_atlas_jaune_13
       rect:
         serializedVersion: 2
-        x: 76
+        x: 75
         y: 254
         width: 30
         height: 53
@@ -491,7 +491,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 124
-        y: 258
+        y: 254
         width: 54
         height: 54
       alignment: 0
@@ -535,7 +535,7 @@ TextureImporter:
         x: 75
         y: 176
         width: 38
-        height: 48
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -553,10 +553,10 @@ TextureImporter:
       name: Character_atlas_jaune_17
       rect:
         serializedVersion: 2
-        x: 138
+        x: 139
         y: 176
-        width: 39
-        height: 46
+        width: 38
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,10 +574,10 @@ TextureImporter:
       name: Character_atlas_jaune_18
       rect:
         serializedVersion: 2
-        x: 202
+        x: 204
         y: 176
-        width: 40
-        height: 45
+        width: 38
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -598,7 +598,7 @@ TextureImporter:
         x: 267
         y: 176
         width: 38
-        height: 47
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -619,7 +619,7 @@ TextureImporter:
         x: 330
         y: 176
         width: 38
-        height: 48
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -766,7 +766,7 @@ TextureImporter:
         x: 8
         y: 57
         width: 44
-        height: 30
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -786,8 +786,8 @@ TextureImporter:
         serializedVersion: 2
         x: 69
         y: 57
-        width: 44
-        height: 30
+        width: 45
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -808,7 +808,7 @@ TextureImporter:
         x: 130
         y: 57
         width: 42
-        height: 40
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
