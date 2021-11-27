@@ -41,12 +41,15 @@ public class MainG : MonoBehaviour
         }
 
         player[0].GetComponent<Player>().CanMove = true;
+        player[0].GetComponent<Shooting>().CanShoot = true;
+        player[0].GetComponent<Shooting>().weapon1 = true;
     }
 
     // Update is called once per frame
     void Update()
     {
       
+
         TimerRound += Time.deltaTime;
        
         if (TimerRound >= StopRound)
@@ -66,13 +69,25 @@ public class MainG : MonoBehaviour
                 if (CurrentId == player[i].GetComponent<Player>().IdPlayer)
                 {
                     player[i].GetComponent<Player>().CanMove = true;
-
+                    player[i].GetComponent<Shooting>().CanShoot = true;
                     test = true;
+                    if (Input.GetKeyDown(KeyCode.A))
+                    {
+                        player[i].GetComponent<Shooting>().weapon1 = true;
+                        player[i].GetComponent<Shooting>().weapon2 = false;
+                    }
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        player[i].GetComponent<Shooting>().weapon1 = false;
+                        player[i].GetComponent<Shooting>().weapon2 = true;
+                    }
                 }
                 else
                 {
                     player[i].GetComponent<Player>().CanMove = false;
-
+                    player[i].GetComponent<Shooting>().CanShoot = false;
+                    player[i].GetComponent<Shooting>().weapon1 = false;
+                    player[i].GetComponent<Shooting>().weapon2 = false;
                     player[i].GetComponent<Player>().rb.velocity = new Vector2(0, 0);
                 }
             }
