@@ -10,6 +10,9 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     public Collider2D Trigger;
 
+    public GameObject CollisionBullet;
+    public int IdBulletPlayer; 
+
     public float speed;
     public float jumpForce;
 
@@ -22,11 +25,15 @@ public class Player : MonoBehaviour
 
     public bool CanMove, CanJump;
 
+    public int NumberLife, LifeMax;
+    public int Pv, PvMAx;
 
     // Start is called before the first frame update
     void Start()
     {
         Character.sprite = Spr_Player[IdPlayer];
+        Pv = PvMAx;
+        IdBulletPlayer = -1;
     }
 
     // Update is called once per frame
@@ -49,6 +56,7 @@ public class Player : MonoBehaviour
             anim.SetBool("isJumping", true);
         }
 
+        
         
     }
     void Move()
@@ -116,6 +124,26 @@ public class Player : MonoBehaviour
             CanJump = false;
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        CollisionBullet = collision.gameObject;
+        IdBulletPlayer = CollisionBullet.GetComponent<Weapon1>().IdBullet;
+        
+    }
 
+    void OnClickPlusLife()
+    {
+        if (LifeMax != 99)
+        {
+            LifeMax++;
+        }
+    }
+    void OnClickMoinsLife()
+    {
+        if (LifeMax != 1)
+        {
+            LifeMax--;
+        }
+    }
 
 }

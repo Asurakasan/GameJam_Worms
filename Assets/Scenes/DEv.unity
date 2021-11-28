@@ -1066,7 +1066,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   TimerRound: 0
-  StopRound: 30
+  StopRound: 5
+  NumberRound: 0
+  RoundMax: 0
   CurrentId: 0
   test: 0
 --- !u!4 &1415168047

@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    public GameObject Bullet1, Bullet2;
+    
+    public GameObject Bullet1, Bullet2, CollisionObject;
     public Transform FirePosition;
     public float BulletSpeed;
     public bool CanShoot, weapon1, weapon2;
     Vector2 lookdirection;
     float lookangle;
     
-   
+
+    void Start()
+    {
+      
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -43,4 +49,6 @@ public class Shooting : MonoBehaviour
             }
         }
     }
+
+    
 }

@@ -8,14 +8,17 @@ public class MainG : MonoBehaviour
     public static MainG Instance;
 
     public Player Scp_Player;
+    public Shooting BulletId;
     
     public GameObject[] O_Player;
     public GameObject[] O_Spawner;
     public GameObject[] player;
 
+    public GameObject Current;
+
     
     public float TimerRound, StopRound;
-
+    public int NumberRound, RoundMax;
     public int CurrentId;
     public bool test;
     private int MaxLenght;
@@ -26,7 +29,7 @@ public class MainG : MonoBehaviour
 
     void Start()
     {
-
+        RoundMax = 1; 
         MaxLenght = player.Length - 1;
         
         for (int i = 0; i < O_Player.Length; i++)
@@ -48,7 +51,6 @@ public class MainG : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
 
         TimerRound += Time.deltaTime;
        
@@ -59,8 +61,16 @@ public class MainG : MonoBehaviour
             if (CurrentId > MaxLenght)
             {
                 CurrentId = 0;
+                if (NumberRound != RoundMax)
+                {
+                    NumberRound++;
+                }
+                else
+                {
+                    //Next Scene
+                }
             }
-
+           
             TimerRound = 0;
 
 
@@ -68,6 +78,7 @@ public class MainG : MonoBehaviour
             {
                 if (CurrentId == player[i].GetComponent<Player>().IdPlayer)
                 {
+
                     player[i].GetComponent<Player>().CanMove = true;
                     player[i].GetComponent<Shooting>().CanShoot = true;
                     test = true;
@@ -97,7 +108,20 @@ public class MainG : MonoBehaviour
            
     }
 
-   
+    void OnClickPlusRound()
+    {
+        if(RoundMax != 99)
+        {
+            RoundMax++;
+        }
+    }
+    void OnClickMoinsRound()
+    {
+        if(RoundMax != 1)
+        {
+            RoundMax--;
+        }
+    }
 
     
    
