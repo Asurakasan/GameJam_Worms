@@ -17,7 +17,7 @@ public class Shooting : MonoBehaviour
     void Start()
     {
         weapon1 = true;
-        CurrentPlayer = current.Current;
+        
     }
 
     // Update is called once per frame
