@@ -276,9 +276,11 @@ MonoBehaviour:
   CanJump: 1
   NumberLife: 0
   LifeMax: 0
+  Bar: {fileID: 0}
+  BarObject: {fileID: 0}
   Pv: 0
-  PvMAx: 0
-  Score: 80
+  PvMAx: 50
+  Score: 0
 --- !u!114 &-3155847723538877936
 MonoBehaviour:
   m_ObjectHideFlags: 0

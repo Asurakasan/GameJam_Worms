@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -27,7 +28,10 @@ public class Player : MonoBehaviour
     public bool CanMove, CanJump;
 
     public int NumberLife, LifeMax;
-    public int Pv, PvMAx;
+
+    public Image Bar;
+    public GameObject BarObject;
+    public float Pv, PvMAx;
 
     public int Score;
     
@@ -35,6 +39,25 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(IdPlayer == 0)
+        {
+            BarObject = GameObject.Find("BlueHealth");
+        }
+        if (IdPlayer == 1)
+        {
+            BarObject = GameObject.Find("GreenHealth");
+        }
+        if (IdPlayer == 2)
+        {
+            BarObject = GameObject.Find("RedHealth");
+        }
+        if (IdPlayer == 3)
+        {
+            BarObject = GameObject.Find("YellowHealth");
+        }
+
+        Bar = BarObject.GetComponent<Image>();
+        Pv = PvMAx;
         CollisionBullet = null;
         Pv = PvMAx;
         IdBulletPlayer = -1;
@@ -45,6 +68,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        Bar.fillAmount = Pv / PvMAx;
         isGrounded = Physics2D.OverlapCircle(groundPos.position, checkRadius, whatIsGround);
 
         if (CanMove)        

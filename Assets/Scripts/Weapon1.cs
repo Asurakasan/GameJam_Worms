@@ -6,6 +6,7 @@ public class Weapon1 : MonoBehaviour
 {
     public GameObject MainGame;
     public GameObject CurrentPlayer;
+    public GameObject Versus;
     public int Rebound, MaxRebound;
     public int IdBullet, playerID;
     // Start is called before the first frame update
@@ -31,15 +32,22 @@ public class Weapon1 : MonoBehaviour
         playerID = collision.gameObject.GetComponent<Player>().IdPlayer;
         if(collision.collider.CompareTag("Player"))
         {
+            Versus = collision.gameObject;
             if (playerID != IdBullet)
             {
-                //Damage
+                Versus.GetComponent<Player>().Pv -= 5;
                 CurrentPlayer.GetComponent<Player>().Score += 10;
             }
         }
-
-        //CollisionBullet = collision.gameObject;
-        //IdBulletPlayer = CollisionBullet.GetComponent<Weapon1>().IdBullet;
+        if (collision.collider.CompareTag("Coeur"))
+        {
+            if (playerID != IdBullet)
+            {
+                
+                CurrentPlayer.GetComponent<Player>().Score += 25;
+            }
+        }
+        
     }
 
 }
