@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
 
     public float speed;
     public float jumpForce;
+    public ParticleSystem walk;
 
     public Animator anim;
 
@@ -34,6 +35,7 @@ public class Player : MonoBehaviour
         CollisionBullet = null;
         Pv = PvMAx;
         IdBulletPlayer = -1;
+        walk.Stop();
     }
 
     // Update is called once per frame
@@ -73,13 +75,22 @@ public class Player : MonoBehaviour
         {
             rotate.y = 180;
             transform.localEulerAngles = rotate;
+            walk.Play();
+        }
+        else
+        {
+            walk.Stop();
         }
         
         if (x < 0)
         {
             rotate.y = 0;
             transform.localEulerAngles = rotate;
-
+            walk.Play();
+        }
+        else
+        {
+            walk.Stop();
         }
 
      

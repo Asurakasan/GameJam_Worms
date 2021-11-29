@@ -162,6 +162,7 @@ MonoBehaviour:
   IdBulletPlayer: 0
   speed: 5
   jumpForce: 17
+  walk: {fileID: 7328720783838901958, guid: 0d1bab9d8cfdcde47bbbbae2bae17a6f, type: 3}
   anim: {fileID: 1098456116994704947}
   groundPos: {fileID: 1098456116435555114}
   checkRadius: 0.4
