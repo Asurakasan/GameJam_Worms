@@ -24,8 +24,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972365883172899257}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.004, z: 0}
+  m_LocalScale: {x: 3.5126185, y: 3.5126185, z: 3.5126185}
   m_Children: []
   m_Father: {fileID: 2938627182621197847}
   m_RootOrder: 2
@@ -356,7 +356,7 @@ MonoBehaviour:
   Bullet2: {fileID: 280655039367167357, guid: ab5f7717721bf864ca6dadb2a3c87560, type: 3}
   CollisionObject: {fileID: 0}
   FirePosition: {fileID: 1302636980741462470}
-  BulletSpeed: 50
+  BulletSpeed: 25
   CanShoot: 0
   weapon1: 0
   weapon2: 0
