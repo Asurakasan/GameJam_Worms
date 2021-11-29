@@ -145,8 +145,8 @@ GameObject:
   - component: {fileID: 2938627182621197845}
   - component: {fileID: 2938627182621198056}
   - component: {fileID: 2938627182621198057}
-  - component: {fileID: 2938627182621198059}
   - component: {fileID: 2938627182621197846}
+  - component: {fileID: 2938627182621198059}
   - component: {fileID: 8531973791502111825}
   m_Layer: 0
   m_Name: Blue_Chara
@@ -164,7 +164,7 @@ Transform:
   m_GameObject: {fileID: 2938627182621197842}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.63, y: 0.03, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 2938627182542800183}
   - {fileID: 2938627181819106019}
@@ -296,6 +296,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!70 &2938627182621197846
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2938627182621197842}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0077158096, y: -0.02174449}
+  m_Size: {x: 0.2451453, y: 0.45651102}
+  m_Direction: 0
 --- !u!61 &2938627182621198059
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -322,22 +338,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.22982349, y: 0.014529586}
   m_EdgeRadius: 0
---- !u!70 &2938627182621197846
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2938627182621197842}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0077158096, y: -0.02174449}
-  m_Size: {x: 0.2451453, y: 0.45651102}
-  m_Direction: 0
 --- !u!114 &8531973791502111825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,6 +350,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce80a0933275d74d8eb2b9efdb2f2a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: {fileID: 0}
+  CurrentPlayer: {fileID: 0}
   Bullet1: {fileID: 4005041950283043171, guid: ca076758c7ad8074692715d515e03995, type: 3}
   Bullet2: {fileID: 280655039367167357, guid: ab5f7717721bf864ca6dadb2a3c87560, type: 3}
   CollisionObject: {fileID: 0}
