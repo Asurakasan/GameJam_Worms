@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class MainG : MonoBehaviour
@@ -13,6 +14,7 @@ public class MainG : MonoBehaviour
     public GameObject[] O_Player;
     public GameObject[] O_Spawner;
     public GameObject[] player;
+    public int[] ScorePlayer;
 
     public GameObject Current;
     
@@ -47,6 +49,8 @@ public class MainG : MonoBehaviour
         player[0].GetComponent<Player>().CanMove = true;
         player[0].GetComponent<Shooting>().CanShoot = true;
         player[0].GetComponent<Shooting>().weapon1 = true;
+
+        ScorePlayer[0] = player[0].GetComponent<Player>().Score;
     }
 
     // Update is called once per frame
@@ -77,11 +81,25 @@ public class MainG : MonoBehaviour
 
             for (int i = 0; i < player.Length; i++)
             {
+                
+                if (Input.GetKeyDown(KeyCode.LeftShift))
+                {
+                    player[i].GetComponent<Shooting>().weapon1 = true;
+                    player[i].GetComponent<Shooting>().weapon2 = false;
+                    test = false;
+                }
+                if (Input.GetKeyDown(KeyCode.LeftControl))
+                {
+                    test = true;
+                    Current.GetComponent<Shooting>().weapon1 = false;
+                    Current.GetComponent<Shooting>().weapon2 = true;
+                }
                 if (CurrentId == player[i].GetComponent<Player>().IdPlayer)
                 {
-                    Current = player[i];
+                    
                     player[i].GetComponent<Player>().CanMove = true;
                     player[i].GetComponent<Shooting>().CanShoot = true;
+                  
                     test = true;
                 }
                 else
