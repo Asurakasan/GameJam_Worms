@@ -126,11 +126,6 @@ public class Player : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject)
-        {
-            CollisionBullet = collision.gameObject;
-            IdBulletPlayer = CollisionBullet.GetComponent<Weapon1>().IdBullet;
-        }
         
     }
 

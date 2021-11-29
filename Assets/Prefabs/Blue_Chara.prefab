@@ -144,6 +144,7 @@ GameObject:
   - component: {fileID: 2938627182621197844}
   - component: {fileID: 2938627182621197845}
   - component: {fileID: 2938627182621198056}
+  - component: {fileID: -5187130272135565405}
   - component: {fileID: 2938627182621198057}
   - component: {fileID: 2938627182621197846}
   - component: {fileID: 2938627182621198059}
@@ -275,6 +276,18 @@ MonoBehaviour:
   LifeMax: 0
   Pv: 0
   PvMAx: 0
+--- !u!114 &-5187130272135565405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2938627182621197842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db04682c75d33704dafe32b98aad4132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &2938627182621198057
 Rigidbody2D:
   serializedVersion: 4

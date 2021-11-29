@@ -27,6 +27,9 @@ public class Weapon1 : MonoBehaviour
         {
             //Damage
         }
+
+        //CollisionBullet = collision.gameObject;
+        //IdBulletPlayer = CollisionBullet.GetComponent<Weapon1>().IdBullet;
     }
 
 }

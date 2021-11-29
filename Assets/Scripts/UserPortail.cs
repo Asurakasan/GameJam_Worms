@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UserPortail : MonoBehaviour
 {
-    private GameObject currentTeleporter;
+    public GameObject currentTeleporter;
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.F))
