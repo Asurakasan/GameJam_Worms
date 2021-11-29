@@ -371,7 +371,7 @@ MonoBehaviour:
   Bullet2: {fileID: 280655039367167357, guid: ab5f7717721bf864ca6dadb2a3c87560, type: 3}
   CollisionObject: {fileID: 0}
   FirePosition: {fileID: 1302636980741462470}
-  BulletSpeed: 25
+  BulletSpeed: 5
   CanShoot: 0
   weapon1: 0
   weapon2: 0

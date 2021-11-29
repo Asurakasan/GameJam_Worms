@@ -131,7 +131,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 6
 --- !u!114 &4508869602119504550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainGame: {fileID: 0}
+  CurrentPlayer: {fileID: 0}
   Rebound: 0
   MaxRebound: 10
   IdBullet: 0
