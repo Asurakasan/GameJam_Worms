@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 6398349474312441272}
   m_Layer: 0
   m_Name: Red_Chara
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -175,6 +175,7 @@ MonoBehaviour:
   LifeMax: 0
   Pv: 0
   PvMAx: 0
+  Score: 0
 --- !u!114 &4925785151955180386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,8 +264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce80a0933275d74d8eb2b9efdb2f2a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  current: {fileID: 0}
-  CurrentPlayer: {fileID: 0}
   Bullet1: {fileID: 4005041950283043171, guid: ca076758c7ad8074692715d515e03995, type: 3}
   Bullet2: {fileID: 280655039367167357, guid: ab5f7717721bf864ca6dadb2a3c87560, type: 3}
   CollisionObject: {fileID: 0}

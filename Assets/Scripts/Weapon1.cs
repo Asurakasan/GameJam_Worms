@@ -4,16 +4,23 @@ using UnityEngine;
 
 public class Weapon1 : MonoBehaviour
 {
-    public MainG MainGame;
+    public GameObject MainGame;
+    public GameObject CurrentPlayer;
     public int Rebound, MaxRebound;
     public int IdBullet, playerID;
     // Start is called before the first frame update
     void Start()
     {
         Rebound = 0;
-        IdBullet = MainGame.CurrentId;
-    }
+        MainGame = GameObject.Find("_MainGame");
 
+        IdBullet = MainGame.GetComponent<MainG>().CurrentId;
+
+    }
+    void Update()
+    {
+        CurrentPlayer = MainGame.GetComponent<MainG>().player[IdBullet];
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Rebound++;
@@ -22,10 +29,13 @@ public class Weapon1 : MonoBehaviour
             Destroy(gameObject);
         }
         playerID = collision.gameObject.GetComponent<Player>().IdPlayer;
-
-        if (playerID != IdBullet)
+        if(collision.collider.CompareTag("Player"))
         {
-            //Damage
+            if (playerID != IdBullet)
+            {
+                //Damage
+                CurrentPlayer.GetComponent<Player>().Score += 10;
+            }
         }
 
         //CollisionBullet = collision.gameObject;
