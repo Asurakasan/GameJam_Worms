@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public bool Shoot;
     public int IdPlayer;
     public Sprite[] Spr_Player;
-    public SpriteRenderer Character;
     public Rigidbody2D rb;
     public Collider2D Trigger;
 
@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Character.sprite = Spr_Player[IdPlayer];
+        CollisionBullet = null;
         Pv = PvMAx;
         IdBulletPlayer = -1;
     }
@@ -126,8 +126,11 @@ public class Player : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        CollisionBullet = collision.gameObject;
-        IdBulletPlayer = CollisionBullet.GetComponent<Weapon1>().IdBullet;
+        if (collision.gameObject)
+        {
+            CollisionBullet = collision.gameObject;
+            IdBulletPlayer = CollisionBullet.GetComponent<Weapon1>().IdBullet;
+        }
         
     }
 

@@ -1050,11 +1050,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Scp_Player: {fileID: 4654618206020688576, guid: 9ad4494c62a7f054a95978a0d32be2c4, type: 3}
+  BulletId: {fileID: 0}
   O_Player:
-  - {fileID: 4654618206020688583, guid: 9ad4494c62a7f054a95978a0d32be2c4, type: 3}
-  - {fileID: 4654618206020688583, guid: 9ad4494c62a7f054a95978a0d32be2c4, type: 3}
-  - {fileID: 4654618206020688583, guid: 9ad4494c62a7f054a95978a0d32be2c4, type: 3}
-  - {fileID: 4654618206020688583, guid: 9ad4494c62a7f054a95978a0d32be2c4, type: 3}
+  - {fileID: 2938627182621197842, guid: 6607c806edc7c7e418fa1c8b01c2392c, type: 3}
+  - {fileID: 7462889270197120872, guid: ad3eddcd88148464995d18d2e26a35fc, type: 3}
+  - {fileID: 1098456116994704957, guid: 8168df7193f0ca54096ba4fe34cd8486, type: 3}
+  - {fileID: 4243225646256574895, guid: c18a339ca6617d94199c69b7a9f5ba37, type: 3}
   O_Spawner:
   - {fileID: 806450949}
   - {fileID: 1274337762}
@@ -1065,8 +1066,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  Current: {fileID: 0}
   TimerRound: 0
-  StopRound: 5
+  StopRound: 30
   NumberRound: 0
   RoundMax: 0
   CurrentId: 0

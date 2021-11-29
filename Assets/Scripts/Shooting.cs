@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    
+    public MainG current;
+    public GameObject CurrentPlayer;
     public GameObject Bullet1, Bullet2, CollisionObject;
     public Transform FirePosition;
     public float BulletSpeed;
@@ -15,13 +16,24 @@ public class Shooting : MonoBehaviour
 
     void Start()
     {
-      
+        weapon1 = true;
+        CurrentPlayer = current.Current;
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+        
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            CurrentPlayer.GetComponent<Shooting>().weapon1 = true;
+            CurrentPlayer.GetComponent<Shooting>().weapon2 = false;
+        }
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            CurrentPlayer.GetComponent<Shooting>().weapon1 = false;
+            CurrentPlayer.GetComponent<Shooting>().weapon2 = true;
+        }
         lookdirection = Camera.main.WorldToScreenPoint(Input.mousePosition);
         lookangle = Mathf.Atan2(lookdirection.y, lookdirection.x) * Mathf.Rad2Deg;
 

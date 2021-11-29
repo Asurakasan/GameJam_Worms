@@ -15,7 +15,7 @@ public class MainG : MonoBehaviour
     public GameObject[] player;
 
     public GameObject Current;
-
+    
     
     public float TimerRound, StopRound;
     public int NumberRound, RoundMax;
@@ -78,20 +78,10 @@ public class MainG : MonoBehaviour
             {
                 if (CurrentId == player[i].GetComponent<Player>().IdPlayer)
                 {
-
+                    Current = player[i];
                     player[i].GetComponent<Player>().CanMove = true;
                     player[i].GetComponent<Shooting>().CanShoot = true;
                     test = true;
-                    if (Input.GetKeyDown(KeyCode.A))
-                    {
-                        player[i].GetComponent<Shooting>().weapon1 = true;
-                        player[i].GetComponent<Shooting>().weapon2 = false;
-                    }
-                    if (Input.GetKeyDown(KeyCode.E))
-                    {
-                        player[i].GetComponent<Shooting>().weapon1 = false;
-                        player[i].GetComponent<Shooting>().weapon2 = true;
-                    }
                 }
                 else
                 {
@@ -101,6 +91,7 @@ public class MainG : MonoBehaviour
                     player[i].GetComponent<Shooting>().weapon2 = false;
                     player[i].GetComponent<Player>().rb.velocity = new Vector2(0, 0);
                 }
+                
             }
 
         }
