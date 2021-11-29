@@ -29,6 +29,9 @@ public class Player : MonoBehaviour
     public int NumberLife, LifeMax;
     public int Pv, PvMAx;
 
+    public int Score;
+    
+
     // Start is called before the first frame update
     void Start()
     {
