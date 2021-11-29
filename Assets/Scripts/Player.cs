@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
         Pv = PvMAx;
         IdBulletPlayer = -1;
         walk.Stop();
+        Debug.Log("FX_Test");
     }
 
     // Update is called once per frame
@@ -80,22 +81,13 @@ public class Player : MonoBehaviour
             transform.localEulerAngles = rotate;
             walk.Play();
         }
-        else
-        {
-            walk.Stop();
-        }
         
         if (x < 0)
         {
             rotate.y = 0;
             transform.localEulerAngles = rotate;
-            walk.Play();
+            
         }
-        else
-        {
-            walk.Stop();
-        }
-
      
         if( x != 0)
         {
@@ -104,6 +96,7 @@ public class Player : MonoBehaviour
         else
         {
             anim.SetBool("isRunning", false);
+            
         }
     }
     private void Jump()
