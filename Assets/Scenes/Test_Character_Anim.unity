@@ -1077,7 +1077,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.7
+  m_Intensity: 1
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
@@ -1572,7 +1572,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964613565}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.16, y: 2.79, z: 0}
+  m_LocalPosition: {x: 8.35, y: 2.83, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_Children:
   - {fileID: 1070231442}
@@ -2821,6 +2821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red_Chara
       objectReference: {fileID: 0}
+    - target: {fileID: 1098456116994704957, guid: 8168df7193f0ca54096ba4fe34cd8486, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8168df7193f0ca54096ba4fe34cd8486, type: 3}
 --- !u!1001 &2938627182584854633
@@ -2833,6 +2837,10 @@ PrefabInstance:
     - target: {fileID: 2938627182621197842, guid: 6607c806edc7c7e418fa1c8b01c2392c, type: 3}
       propertyPath: m_Name
       value: Blue_Chara
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938627182621197842, guid: 6607c806edc7c7e418fa1c8b01c2392c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2938627182621197847, guid: 6607c806edc7c7e418fa1c8b01c2392c, type: 3}
       propertyPath: m_RootOrder
@@ -2935,6 +2943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow_Chara
       objectReference: {fileID: 0}
+    - target: {fileID: 4243225646256574895, guid: c18a339ca6617d94199c69b7a9f5ba37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c18a339ca6617d94199c69b7a9f5ba37, type: 3}
 --- !u!1001 &7462889269794589529
@@ -2991,6 +3003,10 @@ PrefabInstance:
     - target: {fileID: 7462889270197120872, guid: ad3eddcd88148464995d18d2e26a35fc, type: 3}
       propertyPath: m_Name
       value: Green_Chara
+      objectReference: {fileID: 0}
+    - target: {fileID: 7462889270197120872, guid: ad3eddcd88148464995d18d2e26a35fc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad3eddcd88148464995d18d2e26a35fc, type: 3}
