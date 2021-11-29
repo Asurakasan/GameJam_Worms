@@ -126,7 +126,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2938627182542800180}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.251, z: 0}
+  m_LocalPosition: {x: 0.03, y: -0.279, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2938627182621197847}
@@ -258,7 +258,7 @@ MonoBehaviour:
   IdPlayer: 0
   Spr_Player: []
   rb: {fileID: 2938627182621198057}
-  Trigger: {fileID: 2938627182621198059}
+  Trigger: {fileID: 2938627182621197846}
   CollisionBullet: {fileID: 0}
   IdBulletPlayer: 0
   speed: 7
@@ -305,12 +305,12 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 2938627182621197842}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3d04a93a05addc646adfccccf2ae8ed6, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0077158096, y: -0.02174449}
-  m_Size: {x: 0.2451453, y: 0.45651102}
+  m_Offset: {x: -0.0077158064, y: -0.036570877}
+  m_Size: {x: 0.24514532, y: 0.42685825}
   m_Direction: 0
 --- !u!61 &2938627182621198059
 BoxCollider2D:
@@ -319,9 +319,9 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2938627182621197842}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3d04a93a05addc646adfccccf2ae8ed6, type: 2}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
