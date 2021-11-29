@@ -29,7 +29,7 @@ public class MainG : MonoBehaviour
 
     void Start()
     {
-        Current = player[0].GetComponent<GameObject>();
+       
         RoundMax = 1; 
         MaxLenght = player.Length - 1;
         
