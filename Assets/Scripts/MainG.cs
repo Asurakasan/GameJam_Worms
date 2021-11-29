@@ -14,7 +14,7 @@ public class MainG : MonoBehaviour
     public GameObject[] O_Player;
     public GameObject[] O_Spawner;
     public GameObject[] player;
-    public int[] ScorePlayer;
+    public ScoreScript[] ScorePlayer;
 
     public GameObject Current;
     
@@ -44,13 +44,14 @@ public class MainG : MonoBehaviour
             Vector3 pose = new Vector3(O_Spawner[y].transform.position.x, O_Spawner[y].transform.position.y, 0);
             player[y] = Instantiate(O_Player[y], pose, Quaternion.identity);
             player[y].GetComponent<Player>().IdPlayer = y;
+            ScorePlayer[y].Player = player[y]; 
         }
 
         player[0].GetComponent<Player>().CanMove = true;
         player[0].GetComponent<Shooting>().CanShoot = true;
         player[0].GetComponent<Shooting>().weapon1 = true;
 
-        ScorePlayer[0] = player[0].GetComponent<Player>().Score;
+        
     }
 
     // Update is called once per frame
