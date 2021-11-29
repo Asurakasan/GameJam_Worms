@@ -265,7 +265,7 @@ MonoBehaviour:
   IdBulletPlayer: 0
   speed: 5
   jumpForce: 16
-  walk: {fileID: 7328720783838901958, guid: 0d1bab9d8cfdcde47bbbbae2bae17a6f, type: 3}
+  walk: {fileID: 3299054551353697245, guid: df919f42c06af9a4ca4e4897ce06d54c, type: 3}
   anim: {fileID: 2938627182621197844}
   groundPos: {fileID: 2938627182542800183}
   checkRadius: 0.4
@@ -387,8 +387,36 @@ PrefabInstance:
       value: PAR_Walk
       objectReference: {fileID: 0}
     - target: {fileID: 3299054551353697245, guid: df919f42c06af9a4ca4e4897ce06d54c, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299054551353697245, guid: df919f42c06af9a4ca4e4897ce06d54c, type: 3}
       propertyPath: moveWithTransform
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299054551353697245, guid: df919f42c06af9a4ca4e4897ce06d54c, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299054551353697245, guid: df919f42c06af9a4ca4e4897ce06d54c, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.g
+      value: 0.33849382
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299054551353697245, guid: df919f42c06af9a4ca4e4897ce06d54c, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299054551353697245, guid: df919f42c06af9a4ca4e4897ce06d54c, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.b
+      value: 0.8628574
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299054551353697245, guid: df919f42c06af9a4ca4e4897ce06d54c, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.g
+      value: 0.8962264
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299054551353697245, guid: df919f42c06af9a4ca4e4897ce06d54c, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.r
+      value: 0.4269758
       objectReference: {fileID: 0}
     - target: {fileID: 3299054551353697246, guid: df919f42c06af9a4ca4e4897ce06d54c, type: 3}
       propertyPath: m_RootOrder
